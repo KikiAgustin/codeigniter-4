@@ -180,4 +180,9 @@ class Mahasiswa extends BaseController
 
         return view('mahasiswa/data_table', $data);
     }
+
+    public function baru()
+    {
+        echo "percobaan";
+    }
 }
